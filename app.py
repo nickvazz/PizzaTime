@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-st.beta_set_page_config('Pizza Time', page_icon=":pizza:", layout="wide")
+st.set_page_config('Pizza Time', page_icon=":pizza:", layout="wide")
 
 
 session_state = get(dfs={})
